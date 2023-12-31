@@ -1,13 +1,23 @@
-// mulai dark mode
-const darkToggle = document.querySelector("#dark-toggle");
-const html = document.querySelector("html");
+document.addEventListener('DOMContentLoaded', function () {
+    // Dark Mode Toggle
+    // mulai dark mode
+    const darkToggle = document.querySelector("#dark-toggle");
+    const html = document.querySelector("html");
 
-darkToggle.addEventListener("click", function () {
-    if (darkToggle.checked) {
-        html.classList.add("dark");
-    } else {
-        html.classList.remove("dark");
-    }
+    darkToggle.addEventListener("click", function () {
+        if (darkToggle.checked) {
+            html.classList.add("dark");
+        } else {
+            html.classList.remove("dark");
+        }
+    });
+
+    // Mobile Menu Toggle
+    const mobileMenuToggle = document.querySelector('[data-collapse-toggle="mobile-menu"]');
+    const mobileMenu = document.getElementById('mobile-menu');
+    mobileMenuToggle.addEventListener('click', function () {
+        mobileMenu.classList.toggle('hidden');
+    });
 });
 // akhir dark mode
 // gallery
