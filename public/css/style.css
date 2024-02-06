@@ -1185,22 +1185,6 @@ input:checked + .toggle-bg {
   margin-top: 1.5rem;
 }
 
-.-mt-10 {
-  margin-top: -2.5rem;
-}
-
-.-mt-32 {
-  margin-top: -8rem;
-}
-
-.-mt-36 {
-  margin-top: -9rem;
-}
-
-.-mt-40 {
-  margin-top: -10rem;
-}
-
 .block {
   display: block;
 }
@@ -1257,6 +1241,10 @@ input:checked + .toggle-bg {
   height: 1.5rem;
 }
 
+.h-8 {
+  height: 2rem;
+}
+
 .h-80 {
   height: 20rem;
 }
@@ -1301,12 +1289,20 @@ input:checked + .toggle-bg {
   width: 16rem;
 }
 
+.w-8 {
+  width: 2rem;
+}
+
 .w-auto {
   width: auto;
 }
 
 .w-full {
   width: 100%;
+}
+
+.w-9 {
+  width: 2.25rem;
 }
 
 .max-w-2xl {
@@ -1494,16 +1490,12 @@ input:checked + .toggle-bg {
   border-radius: 0.5rem;
 }
 
-.rounded-sm {
-  border-radius: 0.125rem;
-}
-
-.rounded-xl {
-  border-radius: 0.75rem;
-}
-
 .rounded-md {
   border-radius: 0.375rem;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
 }
 
 .rounded-b-2xl {
@@ -1565,6 +1557,11 @@ input:checked + .toggle-bg {
 .border-gray-500 {
   --tw-border-opacity: 1;
   border-color: rgb(107 114 128 / var(--tw-border-opacity));
+}
+
+.border-gray-700 {
+  --tw-border-opacity: 1;
+  border-color: rgb(55 65 81 / var(--tw-border-opacity));
 }
 
 .bg-blue-300 {
@@ -1962,6 +1959,10 @@ input:checked + .toggle-bg {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.underline-offset-4 {
+  text-underline-offset: 4px;
+}
+
 .opacity-0 {
   opacity: 0;
 }
@@ -2286,6 +2287,11 @@ input:checked + .toggle-bg {
   border-color: rgb(103 232 249 / var(--tw-border-opacity));
 }
 
+:is(.dark .dark\:border-gray-100) {
+  --tw-border-opacity: 1;
+  border-color: rgb(243 244 246 / var(--tw-border-opacity));
+}
+
 :is(.dark .dark\:border-gray-600) {
   --tw-border-opacity: 1;
   border-color: rgb(75 85 99 / var(--tw-border-opacity));
@@ -2604,10 +2610,6 @@ input:checked + .toggle-bg {
     margin-top: 0px;
   }
 
-  .md\:-mt-40 {
-    margin-top: -10rem;
-  }
-
   .md\:block {
     display: block;
   }
@@ -2688,6 +2690,10 @@ input:checked + .toggle-bg {
 }
 
 @media (min-width: 1024px) {
+  .lg\:-mt-40 {
+    margin-top: -10rem;
+  }
+
   .lg\:mb-0 {
     margin-bottom: 0px;
   }
@@ -2698,10 +2704,6 @@ input:checked + .toggle-bg {
 
   .lg\:mb-20 {
     margin-bottom: 5rem;
-  }
-
-  .lg\:-mt-40 {
-    margin-top: -10rem;
   }
 
   .lg\:block {
