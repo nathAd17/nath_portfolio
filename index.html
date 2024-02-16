@@ -2739,27 +2739,6 @@
         <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
         <!-- vanila  -->
         <script src="public/js/main.js"></script>
-        <script>
-            document.getElementById('myForm').addEventListener('submit', function (event) {
-                event.preventDefault(); // Prevent the form from submitting normally
-
-                // Get values from form inputs
-                var name = sanitizeInput(document.getElementById('name').value);
-                var email = sanitizeInput(document.getElementById('email').value);
-                var message = sanitizeInput(document.getElementById('message').value);
-
-                // You can perform additional validation here if needed
-
-                // Display sanitized values (for demonstration purpose)
-                alert("Name: " + name + "\nEmail: " + email + "\nMessage: " + message);
-            });
-
-            // Function to sanitize input
-            function sanitizeInput(input) {
-                // You can customize this function according to your needs
-                return input.replace(/</g, "&lt;").replace(/>/g, "&gt;");
-            }
-        </script>
     </body>
 
 </html>
