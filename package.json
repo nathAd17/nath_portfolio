@@ -6,6 +6,5 @@
   },
   "scripts": {
     "dev": "npx tailwindcss -i ./src/input.css -o ./public/css/style.css --watch"
-  },
-  "dependencies": {}
+  }
 }
