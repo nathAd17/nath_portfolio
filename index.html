@@ -128,7 +128,7 @@
         </style>
     </head>
 
-    <body>
+    <body class="overflow-x-hidden">
         <!-- header -->
         <header
             class="bg-gradient-to-b from-gray-50 to-blue-500 dark:from-gray-800 dark:to-cyan-500 transition-colors duration-700 ease-in-out">
@@ -792,7 +792,7 @@
                     <!-- akhir judul halaman -->
                     <!-- content -->
                     <!-- desktop -->
-                    <div id="swiper-container" class="mySwiper container relative">
+                    <div id="swiper-container" class="mySwiper  container relative">
                         <div class="swiper-wrapper">
                             <!-- PROJECT 1 -->
                             <div class="swiper-slide">
@@ -1703,7 +1703,7 @@
             var swiper = new Swiper("#swiper-container", {
                 slidesPerView: 3,
                 spaceBetween: 30,
-                freeMode: true,
+                centeredSlides: true,
                 pagination: {
                     el: ".swiper-pagination",
                     clickable: true,
