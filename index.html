@@ -455,10 +455,10 @@
             <section id="about"
                 class="bg-gradient-to-b from-blue-500 from-5% to-gray-50 dark:from-cyan-500 dark:from-5% dark:to-gray-800 pt-28 pb-6 text-slate-700 dark:text-gray-200">
                 <div class="sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-84 pb-28 px-4 mx-auto">
-                    <h1 class="font-poppins sm:text-6xl mb-8 text-4xl font-bold tracking-tight text-center"
+                    <span class="font-poppins sm:text-6xl mb-8 text-4xl font-bold tracking-tight text-center"
                         data-aos="fade-up" data-aos-duration="500">About <span
                             class="bg-gradient-to-b from-blue-500 from-5% to-gray-50 dark:from-cyan-500 dark:from-5% dark:to-gray-800 p-1 ml-1 dark:text-gray-100 text-gray-800 transition-colors duration-700 ease-in-out bg-blue-800 rounded-lg">Me</span>
-                    </h1>
+                    </span>
                     <div class="lg:grid-cols-2 grid gap-12 row-gap-8">
                         <div class="flex flex-col justify-center">
                             <div class="max-w-xl mb-6">
@@ -792,7 +792,7 @@
                     <!-- akhir judul halaman -->
                     <!-- content -->
                     <!-- desktop -->
-                    <div id="swiper-container" class="mySwiper  container relative">
+                    <div id="swiper-container" class="mySwiper container relative">
                         <div class="swiper-wrapper">
                             <!-- PROJECT 1 -->
                             <div class="swiper-slide">
@@ -1703,7 +1703,7 @@
             var swiper = new Swiper("#swiper-container", {
                 slidesPerView: 3,
                 spaceBetween: 30,
-                centeredSlides: true,
+                freeMode: true,
                 pagination: {
                     el: ".swiper-pagination",
                     clickable: true,
